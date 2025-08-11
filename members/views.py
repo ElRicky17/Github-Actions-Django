@@ -6,6 +6,6 @@ from .serializer import MemberSerializer
 
 @api_view(['GET'])
 def get_member(request):
-    return Response(MemberSerializer({'first_name': 'David', 'last_name': 'Ricaurte'}).data)
+    return d', 'last_name': 'Ricaurte'}).data)
 
 
